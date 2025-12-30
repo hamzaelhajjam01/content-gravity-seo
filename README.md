@@ -66,7 +66,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 ## Support
 
 - **Documentation**: Check the included documentation files
-- **Support Portal**: [support.example.com](https://support.example.com)
+- **Support Portal**: contact@fusionflare.site
 - **Response Time**: 24-48 business hours
 
 ## Credits
