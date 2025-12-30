@@ -2,7 +2,7 @@
 
 [![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
-[![License](https://img.shields.io/badge/License-GPLv2-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![License](https://img.shields.io/badge/License-Envato-green.svg)](https://codecanyon.net/licenses/standard)
 
 A lightweight, modular SEO toolkit for WordPress focusing on **internal linking**, **content analysis**, and **Table of Contents** generation.
 
@@ -40,7 +40,7 @@ A lightweight, modular SEO toolkit for WordPress focusing on **internal linking*
 
 ## Installation
 
-See [installation.md](installation.md) for detailed instructions.
+See [installation.md](docs/installation.md) for detailed instructions.
 
 **Quick Start:**
 1. Upload the plugin folder to `/wp-content/plugins/`
@@ -49,7 +49,7 @@ See [installation.md](installation.md) for detailed instructions.
 
 ## Usage
 
-See [usage.md](usage.md) for detailed usage instructions.
+See [usage.md](docs/usage.md) for detailed usage instructions.
 
 ## Documentation
 
@@ -57,7 +57,7 @@ Full documentation is available in [documentation.md](documentation.md).
 
 ## Limitations
 
-See [limitations.md](limitations.md) for known limitations and workarounds.
+See [limitations.md](docs/limitations.md) for known limitations and workarounds.
 
 ## Changelog
 
@@ -66,7 +66,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 ## Support
 
 - **Documentation**: Check the included documentation files
-- **Support Portal**: contact@fusionflare.site
+- **Support Portal**: [support.example.com](https://support.example.com)
 - **Response Time**: 24-48 business hours
 
 ## Credits
