@@ -1,256 +1,227 @@
-Usage Guide – Content Gravity SEO
+# Usage Guide – Content Gravity SEO
 
-This guide explains how to use Content Gravity SEO to improve content quality and internal linking structure on your WordPress site.
+This guide explains how to use **Content Gravity SEO** to improve content quality and internal linking structure on your WordPress site.
 
-1. Getting Started
+---
+
+## 1. Getting Started
 
 After activating the plugin, navigate to:
 
-WordPress Admin → Content Gravity
+**WordPress Admin → Content Gravity**
 
-You do not need to configure any settings before using the plugin.
+No initial configuration is required.  
 The Content Analyzer works out of the box.
 
-2. Overview Dashboard
+---
 
-The Overview page provides a high-level summary of your site’s SEO health.
+## 2. Overview Dashboard
+
+The **Overview** page provides a high-level summary of your site’s SEO health.
 
 You may see:
+- Average content optimization score
+- Number of weak or under-optimized posts
+- Internal link statistics
+- Internal authority (Link Juice) distribution
 
-Average content optimization score
+This page is designed to help you decide **what to optimize first**, not to replace detailed analysis.
 
-Number of weak or under-optimized posts
+---
 
-Internal link statistics
+## 3. Content Analyzer (Main Workflow)
 
-Link authority (Link Juice) distribution
+The **Content Analyzer** is the primary workspace of the plugin.
 
-This page is designed to help you decide what to optimize first, not to replace detailed analysis.
-
-3. Content Analyzer (Main Workflow)
-
-The Content Analyzer is the primary workspace of the plugin.
-
-3.1 Analyzer List View
+### 3.1 Analyzer List View
 
 Go to:
 
-Content Gravity → Content Analyzer
+**Content Gravity → Content Analyzer**
 
 You will see a table listing all posts and pages with:
-
-Optimization score (A–F)
-
-Word count
-
-Internal link count
-
-Optimization status
+- Optimization score (A–F)
+- Word count
+- Internal link count
+- Optimization status
 
 Use this list to quickly identify weak or under-optimized content.
 
-Click Optimize on any post to open the Optimization Workspace.
+Click **Optimize** on any post to open the Optimization Workspace.
 
-4. Optimization Workspace (Single Post)
+---
+
+## 4. Optimization Workspace (Single Post)
 
 This page is where most optimization work happens.
 
-4.1 Metrics Sidebar
+### 4.1 Metrics Sidebar
 
 The sidebar displays:
-
-Overall optimization score
-
-Word count
-
-Heading structure (H2 / H3 usage)
-
-Readability (approximate)
-
-Link summary
+- Overall optimization score
+- Word count
+- Heading structure (H2 / H3 usage)
+- Readability (approximate)
+- Link summary
 
 These metrics update when the content is refreshed or reanalyzed.
 
-4.2 Focus Keywords
+---
 
-You can define one or more focus keywords for the post.
+### 4.2 Focus Keywords
+
+You can define one or more **focus keywords** for the post.
 
 The analyzer checks whether these keywords appear in:
-
-Title
-
-Headings
-
-Content body
+- The post title
+- Headings
+- Content body
 
 This helps guide on-page optimization.
 
-4.3 Optimization Checklist
+---
 
-The Optimization Checklist (Live) shows:
+### 4.3 Optimization Checklist
 
-Completed SEO elements
+The **Optimization Checklist (Live)** shows:
+- Completed SEO elements
+- Missing or weak elements
 
-Missing or weak elements
+Examples include:
+- Missing internal links
+- Low word count
+- Poor heading structure
 
-Examples:
+The checklist is advisory and does not modify content automatically.
 
-Missing internal links
+---
 
-Low word count
+## 5. Internal Link Opportunities
 
-Poor heading structure
+Inside the Optimization Workspace, you may see an **Internal Link Opportunities** panel.
 
-This checklist is advisory and does not modify content automatically.
+### What this does
+- Suggests relevant internal pages you can link to
+- Suggestions are based on relevance and internal authority
+- No links are inserted automatically without confirmation
 
-5. Internal Link Opportunities
+### Inserting a link
+1. Click **Preview Link** to review the suggestion
+2. Click **Insert Link** to add it to the content
 
-Inside the Optimization Workspace, you may see an Internal Link Opportunities panel.
+### Editor compatibility
+- ✅ Classic Editor
+- ✅ Gutenberg (Block Editor)
+- ❌ Elementor (automatic insertion disabled)
 
-What this does
+When Elementor content is detected, the plugin displays a notice and disables automatic insertion to prevent layout issues.
 
-Suggests relevant internal pages you can link to
+---
 
-Suggestions are based on relevance and internal authority
-
-No links are inserted automatically without confirmation
-
-Inserting a link
-
-Click Preview Link to review the suggestion
-
-Click Insert Link to add it to the content
-
-Editor compatibility
-
-✅ Classic Editor
-
-✅ Gutenberg (Block Editor)
-
-❌ Elementor (automatic insertion disabled)
-
-When Elementor content is detected, the plugin shows a notice and disables automatic insertion to prevent layout issues.
-
-6. Internal Linking Overview
+## 6. Internal Linking Overview
 
 Go to:
 
-Content Gravity → Internal Linking
+**Content Gravity → Internal Linking**
 
 Here you can:
+- Scan internal links across the site
+- Recalculate internal authority scores
+- View orphan pages (pages with no incoming internal links)
+- View low-authority pages
 
-Scan internal links across the site
-
-Recalculate internal authority scores
-
-View orphan pages (no incoming links)
-
-View low-authority pages
-
-Orphan Pages
-
-Pages with zero internal incoming links.
+### Orphan Pages
+Pages with zero internal incoming links.  
 These pages are often invisible to internal navigation and should be linked.
 
-Low Authority Pages
-
-Pages with few or weak internal links.
+### Low Authority Pages
+Pages with few or weak internal links.  
 They may benefit from links from stronger pages.
 
-7. Link Juice (Internal Authority)
+---
 
-Link Juice is an internal authority estimation metric.
+## 7. Link Juice (Internal Authority)
 
-What it represents
+Link Juice is an **internal authority estimation metric**.
 
-How internal links distribute authority across your site
+### What it represents
+- How internal links distribute authority across your site
+- Inspired by PageRank-style calculations
 
-Inspired by PageRank-style calculations
+### What it is NOT
+- It is not a Google ranking signal
+- It does not guarantee ranking improvements
 
-What it is NOT
+Use Link Juice as **guidance**, not as an absolute metric.
 
-It is not a Google ranking signal
+---
 
-It does not guarantee ranking improvements
-
-Use Link Juice as guidance, not as an absolute metric.
-
-8. Table of Contents (TOC)
+## 8. Table of Contents (TOC)
 
 Content Gravity can automatically generate a Table of Contents for posts.
 
-Features
+### Features
+- Generated from H1–H6 headings
+- Boxed or in-content display
+- Optional collapse toggle
+- Gutenberg TOC block available
 
-Based on H1–H6 headings
-
-Boxed or in-content display
-
-Optional collapse toggle
-
-Gutenberg TOC block available
-
-Configuration
-
+### Configuration
 Go to:
 
-Content Gravity → Settings → TOC
+**Content Gravity → Settings → TOC**
 
 You can:
+- Choose heading levels to include
+- Select the TOC position
+- Enable or disable collapse
 
-Choose heading levels to include
+The TOC system is designed to be **stable and theme-safe**.
 
-Select TOC position
+---
 
-Enable or disable collapse
-
-The TOC system is designed to be stable and theme-safe.
-
-9. Tools & Maintenance
+## 9. Tools & Maintenance
 
 Go to:
 
-Content Gravity → Tools
+**Content Gravity → Tools**
 
 Available tools:
-
-Rebuild internal link index
-
-Recalculate authority scores
-
-Import / Export plugin settings
+- Rebuild internal link index
+- Recalculate authority scores
+- Import / Export plugin settings
 
 These tools are manual by design and do not run automatically in the background.
 
-10. Best Practices
+---
 
-Optimize content manually using the Analyzer recommendations
+## 10. Best Practices
 
-Use internal link suggestions thoughtfully
+- Optimize content manually using the Analyzer recommendations
+- Use internal link suggestions thoughtfully
+- Avoid excessive internal linking
+- Rebuild the link index after major content changes
+- Treat authority scores as directional insights
 
-Avoid excessive linking
+---
 
-Rebuild the link index after major content changes
+## 11. Known Limitations
 
-Treat authority scores as directional insights
+- Automatic content insertion is not supported for Elementor
+- Bulk automatic internal linking is not enabled in v1
+- Readability analysis is approximate
+- Link Juice is an estimation metric
 
-11. Known Limitations
+These limitations exist to ensure **content safety and stability**.
 
-Automatic content insertion is not supported for Elementor
+---
 
-Bulk automatic internal linking is not enabled in v1
-
-Readability analysis is approximate
-
-Link Juice is an estimation metric
-
-These limitations exist to ensure content safety and stability.
-
-12. Support
+## 12. Support
 
 Support is available via:
+- CodeCanyon comments
+- GitHub Issues (bug reports only)
 
-CodeCanyon comments
+---
 
-GitHub Issues (bug reports only)
-
-End of Usage Guide
+_End of Usage Guide_
