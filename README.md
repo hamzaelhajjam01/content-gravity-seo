@@ -77,13 +77,13 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## License
 
-This plugin is licensed under the GPLv2 or later.
+This plugin is sold exclusively on CodeCanyon under the [Envato Regular License](https://codecanyon.net/licenses/standard).
 
-```
-Copyright (C) 2024 Content Gravity
+**Regular License includes:**
+- Use on a single end product
+- End product may be free or paid
+- Lifetime updates included
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-```
+For extended license terms, please see CodeCanyon's license page.
+
+© 2024 Content Gravity. All rights reserved.
