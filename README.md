@@ -1,89 +1,79 @@
 # Content Gravity SEO Toolkit
 
-[![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue.svg)](https://wordpress.org/)
-[![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
-[![License](https://img.shields.io/badge/License-Envato-green.svg)](https://codecanyon.net/licenses/standard)
+**Transform your WordPress site's internal linking from chaos to strategy.** A lightweight, all-in-one SEO toolkit that helps you build authority through smarter internal links, content analysis, and auto-generated tables of contents.
 
-A lightweight, modular SEO toolkit for WordPress focusing on **internal linking**, **content analysis**, and **Table of Contents** generation.
+---
 
-## Features
+## Key Features
 
-### 🔗 Internal Linking System
-- **Link Juice Calculator** - PageRank-inspired algorithm showing authority flow
-- **Link Plan Builder** - Find and insert internal links with one click
-- **Orphan Page Finder** - Identify pages with no inbound links
-- **Bulk Link Insertion** - Auto-insert links with rollback capability
+- **Smart Link Suggestions** — Find the best pages to link from with one-click insertion
+- **Link Juice Calculator** — See how authority flows through your site (PageRank-inspired)
+- **Orphan Page Finder** — Instantly spot pages with zero inbound links
+- **Content Analyzer** — Real-time readability and keyword optimization feedback
+- **Auto Table of Contents** — Beautiful, collapsible TOCs from your headings
+- **Content Clusters** — Visualize and strengthen your topical authority
+- **Broken Link Checker** — Catch 404s before they hurt your rankings
+- **Bulk Operations** — Insert links across multiple posts with rollback support
 
-### 📊 Content Analyzer
-- Real-time readability scoring (Flesch Reading Ease)
-- Keyword density analysis
-- Heading structure validation
-- Image-to-text ratio check
+---
 
-### 📑 Table of Contents
-- Auto-generated from heading structure
-- Multiple styles: Boxed, Minimal, Sidebar
-- Collapsible/expandable
-- Shortcode `[cg_toc]` support
+## How It Works
 
-### 🎯 Additional Features
-- Content Clusters with hub detection
-- HTTP Status Checker for broken links
-- Elementor compatibility
-- Dark mode support
+1. **Install & Activate** — Upload the plugin and activate in WordPress
+2. **Build Your Link Index** — One click maps all internal links on your site
+3. **Get Recommendations** — See exactly where to add links for maximum impact
+4. **Insert & Track** — Add links with one click, with full rollback capability
+
+---
+
+## Screenshots
+
+![Dashboard Overview](assets/dashboard.png)
+![Internal Links Manager](assets/internal-links.png)
+![Content Analyzer](assets/content-analyzer.png)
+![Orphan Pages Finder](assets/orphans.png)
+
+---
 
 ## Requirements
 
-- WordPress 6.0 or higher
-- PHP 7.4 or higher
-- MySQL 5.6 or higher
+- WordPress 6.0+
+- PHP 7.4+
+- MySQL 5.6+
+- Works with Gutenberg, Classic Editor, and Elementor
 
-## Installation
-
-See [installation.md](docs/installation.md) for detailed instructions.
-
-**Quick Start:**
-1. Upload the plugin folder to `/wp-content/plugins/`
-2. Activate through the Plugins menu
-3. Go to **Content Gravity** in the admin menu
-
-## Usage
-
-See [usage.md](docs/usage.md) for detailed usage instructions.
+---
 
 ## Documentation
 
-Full documentation is available in [documentation.md](documentation.md).
+Full documentation included in the `/docs` folder:
+
+- [Installation Guide](docs/installation.md)
+- [Usage Guide](docs/usage.md)
+- [Full Documentation](documentation.md)
+
+---
 
 ## Limitations
 
-See [limitations.md](docs/limitations.md) for known limitations and workarounds.
+We believe in transparency. See [limitations.md](docs/limitations.md) for:
 
-## Changelog
+- Known edge cases with certain page builders
+- Large site performance considerations
+- Feature scope boundaries
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+---
 
 ## Support
 
-- **Documentation**: Check the included documentation files
-- **Support Portal**: contact@fusionflare.site
-- **Response Time**: 24-48 business hours
+- **Documentation**: Comprehensive guides included with purchase
+- **Support Portal**: [support.example.com](https://support.example.com)
+- **Response Time**: 24–48 business hours
 
-## Credits
-
-- **Tailwind CSS** - MIT License
-- **WordPress Dashicons** - GPLv2
-- **Flesch Reading Ease** - Public domain algorithm
+---
 
 ## License
 
-This plugin is sold exclusively on CodeCanyon under the [Envato Regular License](https://codecanyon.net/licenses/standard).
-
-**Regular License includes:**
-- Use on a single end product
-- End product may be free or paid
-- Lifetime updates included
-
-For extended license terms, please see CodeCanyon's license page.
+Sold exclusively on CodeCanyon under the [Envato Regular License](https://codecanyon.net/licenses/standard).
 
 © 2024 Content Gravity. All rights reserved.
