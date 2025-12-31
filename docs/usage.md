@@ -170,7 +170,6 @@ In Gutenberg, use a **Shortcode** block.
 |-------|-------------|
 | Boxed | Bordered container with background |
 | Minimal | Simple list, no container |
-| Sidebar | For widget placement |
 
 Additional options:
 - **Collapsible**: Expand/collapse toggle
