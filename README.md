@@ -67,7 +67,7 @@ We believe in transparency. See [limitations.md](docs/limitations.md) for:
 ## Support
 
 - **Documentation**: Comprehensive guides included with purchase
-- **Support Portal**: [support.example.com](https://support.example.com)
+- **Support Portal**: contact@fusionflare.site
 - **Response Time**: 24–48 business hours
 
 ---
