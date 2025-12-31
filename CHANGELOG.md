@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Content Analyzer** with real-time readability scoring (Flesch Reading Ease)
-- **Table of Contents (TOC)** generator with multiple styles (Boxed, Minimal, Sidebar)
+- **Table of Contents (TOC)** generator with multiple styles (Boxed, Minimal)
 - **Auto-insert TOC** functionality with position options
 - **Shortcode** `[cg_toc]` support for manual placement
 - **Internal Link Assistant** with smart link suggestions
