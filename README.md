@@ -76,4 +76,4 @@ We believe in transparency. See [limitations.md](docs/limitations.md) for:
 
 Sold exclusively on CodeCanyon under the [Envato Regular License](https://codecanyon.net/licenses/standard).
 
-© 2024 Content Gravity. All rights reserved.
+© 2025 Content Gravity. All rights reserved.
